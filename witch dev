@@ -1,0 +1,80 @@
+* [33maa74e8d[m[33m ([m[1;32mfeature/cardDeporte[m[33m)[m .
+*   [33md46b92f[m resuelvo problema
+[32m|[m[33m\[m  
+[32m|[m *   [33m1747630[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mdev[m[33m, [m[1;31morigin/dev[m[33m)[m Merge branch 'dev' of https://github.com/marilamas02-cloud/Sport into dev
+[32m|[m [34m|[m[35m\[m  
+[32m|[m * [35m|[m [33mdbc130c[m agrego css
+* [35m|[m [35m|[m [33mb673858[m agregue cards
+* [35m|[m [35m|[m   [33mb48e92a[m Merge branch 'dev' of https://github.com/marilamas02-cloud/Sport into feature/cardDeporte
+[36m|[m[35m\[m [35m\[m [35m\[m  
+[36m|[m [35m|[m [35m|[m[35m/[m  
+[36m|[m [35m|[m[35m/[m[35m|[m   
+[36m|[m * [35m|[m   [33m01a2d39[m Merge pull request #7 from marilamas02-cloud/fix/error_404
+[36m|[m [1;32m|[m[1;33m\[m [35m\[m  
+[36m|[m [1;32m|[m * [35m|[m [33m826defe[m Implemento archivo html del error 404
+[36m|[m * [1;33m|[m [35m|[m   [33mb3e04b7[m Merge pull request #8 from marilamas02-cloud/fix/registro
+[36m|[m [35m|[m[1;35m\[m [1;33m\[m [35m\[m  
+[36m|[m [35m|[m [1;35m|[m[35m_[m[1;33m|[m[35m/[m  
+[36m|[m [35m|[m[35m/[m[1;35m|[m [1;33m|[m   
+[36m|[m [35m|[m * [1;33m|[m [33m6623d4d[m Agrego ruta de dirección en Registro que lleva al error 404
+[36m|[m [35m|[m[35m/[m [1;33m/[m  
+* [35m|[m [1;33m|[m [33m352c989[m agrego cards con imagenes y texto
+* [35m|[m [1;33m|[m [33m61a394b[m agrego imagenes
+* [35m|[m [1;33m|[m [33m5db0813[m Merge branch 'dev' of https://github.com/marilamas02-cloud/Sport into feature/cardDeporte
+[1;36m|[m[35m\[m[35m|[m [1;33m|[m 
+[1;36m|[m * [1;33m|[m [33m78dd5fc[m agrego imagenes
+[1;36m|[m [1;33m|[m[1;33m/[m  
+* [1;33m|[m [33m97c37e5[m agrego imagenes
+[32m|[m[1;33m\[m[1;33m|[m 
+[32m|[m *   [33md4904bf[m Merge pull request #6 from marilamas02-cloud/fix/login
+[32m|[m [34m|[m[35m\[m  
+[32m|[m [34m|[m *   [33m71f56c3[m Merge branch 'dev' into fix/login
+[32m|[m [34m|[m [36m|[m[34m\[m  
+[32m|[m [34m|[m [36m|[m[34m/[m  
+[32m|[m [34m|[m[34m/[m[36m|[m   
+[32m|[m * [36m|[m   [33m87dd1a1[m Merge pull request #1 from marilamas02-cloud/feature/footer
+[32m|[m [1;32m|[m[1;33m\[m [36m\[m  
+[32m|[m [1;32m|[m * [36m\[m   [33mdb78c68[m Merge branch 'dev' into feature/footer
+[32m|[m [1;32m|[m [1;34m|[m[1;32m\[m [36m\[m  
+[32m|[m [1;32m|[m [1;34m|[m[1;32m/[m [36m/[m  
+[32m|[m [1;32m|[m[1;32m/[m[1;34m|[m [36m|[m   
+[32m|[m * [1;34m|[m [36m|[m   [33mfcc867e[m Merge pull request #2 from marilamas02-cloud/feature/carouselSection
+[32m|[m [1;36m|[m[31m\[m [1;34m\[m [36m\[m  
+[32m|[m [1;36m|[m * [1;34m\[m [36m\[m   [33m96cb69e[m Merge branch 'dev' into feature/carouselSection
+[32m|[m [1;36m|[m [32m|[m[1;36m\[m [1;34m\[m [36m\[m  
+[32m|[m [1;36m|[m [32m|[m[1;36m/[m [1;34m/[m [36m/[m  
+[32m|[m [1;36m|[m[1;36m/[m[32m|[m [1;34m|[m [36m|[m   
+[32m|[m * [32m|[m [1;34m|[m [36m|[m   [33m5c8f168[m Merge pull request #3 from marilamas02-cloud/feature/registro
+[32m|[m [34m|[m[35m\[m [32m\[m [1;34m\[m [36m\[m  
+[32m|[m [34m|[m * [32m|[m [1;34m|[m [36m|[m [33m0b939fd[m modificaciones en el formulario.
+[32m|[m [34m|[m * [32m|[m [1;34m|[m [36m|[m [33m58d44e5[m modifico propiedades  en el botón (Registrarse) para que sea adecuado en todos los dispositivos.(responsive)
+[32m|[m [34m|[m * [32m|[m [1;34m|[m [36m|[m [33m241a2ce[m agrego archivo html a la carpeta pages de la estructura de la página (registro.html) con su respectivo código
+[32m|[m * [35m|[m [32m|[m [1;34m|[m [36m|[m   [33m7f0c80b[m Merge pull request #4 from marilamas02-cloud/feature/login
+[32m|[m [36m|[m[1;31m\[m [35m\[m [32m\[m [1;34m\[m [36m\[m  
+[32m|[m * [1;31m\[m [35m\[m [32m\[m [1;34m\[m [36m\[m   [33m8eced44[m Merge pull request #5 from marilamas02-cloud/feature/error_404
+[32m|[m [35m|[m[1;33m\[m [1;31m\[m [35m\[m [32m\[m [1;34m\[m [36m\[m  
+[32m|[m [35m|[m [1;33m|[m[35m_[m[1;31m|[m[35m/[m [32m/[m [1;34m/[m [36m/[m  
+[32m|[m [35m|[m[35m/[m[1;33m|[m [1;31m|[m [32m|[m [1;34m|[m [36m|[m   
+[32m|[m [35m|[m * [1;31m|[m [32m|[m [1;34m|[m [36m|[m [33m23319f8[m Agrego imagen al archivo html error_404.html
+[32m|[m [35m|[m * [1;31m|[m [32m|[m [1;34m|[m [36m|[m [33m47f2462[m Agrego archivo html a la estructura de la página. Llamado error_404.html
+[32m|[m [35m|[m[35m/[m [1;31m/[m [32m/[m [1;34m/[m [36m/[m  
+[32m|[m [35m|[m [1;31m|[m * [1;34m/[m [36m/[m [33me7d086e[m agregue las imagenes de publicidad en el carousel/seccion
+[32m|[m [35m|[m [1;31m|[m[35m/[m [1;34m/[m [36m/[m  
+[32m|[m [35m|[m[35m/[m[1;31m|[m [1;34m|[m [36m|[m   
+[32m|[m [35m|[m [1;31m|[m * [36m|[m [33ma6a7bcc[m agrego archivo footer.css a la carpeta css de la estructura. También agrego CDN de íconos Bootstrap y archivo css propio al Head.
+[32m|[m [35m|[m [1;31m|[m * [36m|[m [33ma35b0c3[m agrego estilo con Boostrap a la estructura del footer
+[32m|[m [35m|[m [1;31m|[m * [36m|[m [33mbbbc91f[m implemento estructura básica del footer
+[32m|[m [35m|[m [1;31m|[m[35m/[m [36m/[m  
+[32m|[m [35m|[m[35m/[m[1;31m|[m [36m|[m   
+[32m|[m [35m|[m [1;31m|[m * [33m00a9999[m Agrego rama de login que reemplaza a la anterior.
+[32m|[m [35m|[m [1;31m|[m[1;31m/[m  
+[32m|[m [35m|[m * [33m572502f[m Agrego archivo html llamado login para iniciar sesión.
+[32m|[m [35m|[m[35m/[m  
+* [35m|[m [33mee9a26c[m agrego imagenes
+* [35m|[m [33meb407be[m Merge branch 'dev' of https://github.com/marilamas02-cloud/Sport into feature/cardDeporte
+[1;34m|[m[35m\[m[35m|[m 
+[1;34m|[m * [33mbd819bf[m agrego una imagen a dev
+* [1;35m|[m [33med0a33f[m agrego dos imagenes en assets
+* [1;35m|[m [33mf9154e5[m agrego cards
+[1;35m|[m[1;35m/[m  
+* [33me90b0f7[m[33m ([m[1;31morigin/main[m[33m, [m[1;32mmain[m[33m)[m agrego estructura inicial al index
