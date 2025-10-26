@@ -52,9 +52,3 @@ div {
   border-radius: 5%;
 }
 
-.cardSUS:hover {
-  filter: grayscale(0%);
-  scale: 1.11;
-
-  transition: 500ms;
-}
