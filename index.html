@@ -8,8 +8,40 @@
   </head>
   <body>
     <header></header>
-    <main></main>
+    <main>
+      <section class="container my-5" style="max-width: 600px;">
+      <div class="card shadow">
+        <div class="p-3 bg-dark text-white rounded">
+          <h5 class="text-center">Iniciar sesión en SPORT</h5>
+        </div>
+      <div class="card-body">
+      
+      <form>
+
+        <div class="mb-5">
+          <label for="usuario" class="form-label">Usuario:</label>
+          <div class="input-group">
+            <span class="input-group-text">@</span>
+            <input type="text" class="form-control" id="usuario" placeholder="Escribe aquí..." required>
+          </div>
+        </div>
+
+        <div class="mb-5">
+          <label for="password" class="form-label">Contraseña:</label>
+          <input type="password" class="form-control" id="password" placeholder="**********" minlength="8" maxlength="25" required>
+        </div>
+
+        <button class="btn btn-primary d-block mx-auto w-50" type="submit">Ingresar</button>
+
+        </form>
+        </div>
+      </div>
+      </section>
+
+  
+    </main>
     <footer></footer>
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
   </body>
 </html>
