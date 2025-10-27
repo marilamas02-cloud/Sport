@@ -1,79 +1,874 @@
-<!doctype html>
-<html lang="en">
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="dark">
 
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Bootstrap demo</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css" />
+  <link rel="stylesheet" href="./css/footer.css" />
+  <link rel="stylesheet" href="./css/style.css" />
 </head>
 
 <body>
   <header>
-    <nav class="navbar navbar-expand-lg bg-dark">
-      <div class="container">
-        <a class="navbar-brand" href="/index.html"></a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent"
-          aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item dropdown">
-              <button type="button" class="btn btn-secondary btn-lg">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+    <section>
+      <nav class="navbar navbar-expand-lg bg-tertiary">
+        <div class="container">
+          <a class="navbar-brand" href="/index.html"><img src="/assets/img/logo.png" width="125" alt="Sport"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="/index.html">Home</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
                   aria-expanded="false">
                   Explorar
                 </a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <li><a class="dropdown-item" href="/pages/contacto.html">Contacto</a></li>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="/pages/login.html">Iniciar Sesion</a></li>
+                  <li><a class="dropdown-item" href="/pages/registro.html">Registrate</a></li>
                   <li><a class="dropdown-item" href="/pages/nosotros.html">Nosotros</a></li>
-              </button>
-          </ul>
-          </li>
-          <li class="nav-item">
-            <button type="button" class="btn btn-secondary btn-lg"><a class="nav-link active" aria-current="page"
-                href="#">Iniciar sesion</a></button>
+                  <li><a class="dropdown-item" href="/pages/contacto.html">Contacto</a></li>
+                </ul>
+              </li>
             </ul>
+          </div>
         </div>
+      </nav>
+    </section>
+    <section>
+      <div id="carouselExampleCaptions" class="carousel slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+            aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+            aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+            aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="/assets/img/banner2.png" class="banner d-block w-100" alt="...">
+            <div class="carrusel carousel-caption d-none d-md-block">
+              <h5>Champions League 2025</h5>
+              <p>Vive la emocionante "Fase de Grupos" del torneo mas importante del mundo.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="/assets/img/banner6.png" class="banner d-block w-100" alt="...">
+            <div class="carrusel carousel-caption d-none d-md-block">
+              <h5>The Finals 2025</h5>
+              <p>Curry vs LeBron - Warrios vs Cavalliers. No te pierdas el final de la serie.</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
       </div>
-    </nav>
-
-    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-      <div class="carousel-indicators">
-        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
-          aria-current="true" aria-label="Slide 1"></button>
-        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
-          aria-label="Slide 2"></button>
-        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
-          aria-label="Slide 3"></button>
-      </div>
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <img src="..." class="d-block w-100" alt="...">
-        </div>
-        <div class="carousel-item">
-          <img src="..." class="d-block w-100" alt="...">
-        </div>
-        <div class="carousel-item">
-          <img src="..." class="d-block w-100" alt="...">
-        </div>
-      </div>
-      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
-        data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Anterior</span>
-      </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
-        data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Siguiente</span>
-      </button>
-    </div>
+    </section>
   </header>
-  <main></main>
+  <main>
+    <section class="cardDeporte">
+      <div class="container py-5">
+
+        <h2 class="text-center mb-4">Básquet</h2>
+        <div class="d-flex flex-wrap justify-content-center gap-5 mb-5">
+          <div class="card" style="width: 18rem">
+            <img src="./assets/img/basket1.jpg" class="card-img-top img-fluid img-cardDeporte" alt="basket1" />
+            <div class="card-body">
+              <p class="card-text fw-bold text-center">Dribbling</p>
+              <div class="botonDeporte d-flex justify-content-center align-items-center">
+                <button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#Dribbling">
+                  Ver demo
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div class="card" style="width: 18rem">
+            <img src="./assets/img/basket2.jpg" class="card-img-top img-fluid img-cardDeporte" alt="basket2" />
+            <div class="card-body">
+              <p class="card-text fw-bold text-center">
+                Tiro en suspensión (Jump shot)
+              </p>
+              <div class="botonDeporte d-flex justify-content-center align-items-center">
+                <button type="button" class="btn btn-secondary" data-bs-toggle="modal"
+                  data-bs-target="#TiroEnSuspension">
+                  Ver demo
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div class="card" style="width: 18rem">
+            <img src="./assets/img/basket3.jpeg" class="card-img-top img-fluid img-cardDeporte" alt="basket3" />
+            <div class="card-body">
+              <p class="card-text fw-bold text-center">Pivoteo</p>
+              <div class="botonDeporte d-flex justify-content-center align-items-center">
+                <button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#Pivoteo">
+                  Ver demo
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div class="card" style="width: 18rem">
+            <img src="./assets/img/basket4.jpg" class="card-img-top img-fluid img-cardDeporte" alt="basket4" />
+            <div class="card-body">
+              <p class="card-text fw-bold text-center">Bandeja (Lay-up)</p>
+              <div class="botonDeporte d-flex justify-content-center align-items-center">
+                <button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#Bandeja">
+                  Ver demo
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <h2 class="text-center mb-4">Fútbol</h2>
+        <div class="d-flex flex-wrap justify-content-center gap-5 mb-5">
+          <div class="card" style="width: 18rem">
+            <img src="./assets/img/futbol1.jpg" class="card-img-top img-fluid img-cardDeporte" alt="futbol1" />
+            <div class="card-body">
+              <p class="card-text fw-bold text-center">Pase</p>
+              <div class="botonDeporte d-flex justify-content-center align-items-center">
+                <button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#Pase">
+                  Ver demo
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div class="card" style="width: 18rem">
+            <img src="./assets/img/futbol2.jpg" class="card-img-top img-fluid img-cardDeporte" alt="futbol2" />
+            <div class="card-body">
+              <p class="card-text fw-bold text-center">Control/Recepción</p>
+              <div class="botonDeporte d-flex justify-content-center align-items-center">
+                <button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#Control">
+                  Ver demo
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div class="card" style="width: 18rem">
+            <img src="./assets/img/futbol3.jpg" class="card-img-top img-fluid img-cardDeporte" alt="futbol3" />
+            <div class="card-body">
+              <p class="card-text fw-bold text-center">Conducción</p>
+              <div class="botonDeporte d-flex justify-content-center align-items-center">
+                <button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#Conducción">
+                  Ver demo
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div class="card" style="width: 18rem">
+            <img src="./assets/img/futbol4.webp" class="card-img-top img-fluid img-cardDeporte" alt="futbol4" />
+            <div class="card-body">
+              <p class="card-text fw-bold text-center">Remate</p>
+              <div class="botonDeporte d-flex justify-content-center align-items-center">
+                <button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#Remate">
+                  Ver demo
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <h2 class="text-center mb-4">Tenis</h2>
+        <div class="d-flex flex-wrap justify-content-center gap-5 mb-5">
+          <div class="card" style="width: 18rem">
+            <img src="./assets/img/tenis1.avif" class="card-img-top img-fluid img-cardDeporte" alt="tenis1" />
+            <div class="card-body">
+              <p class="card-text fw-bold text-center">Drive (derecha)</p>
+              <div class="botonDeporte d-flex justify-content-center align-items-center">
+                <button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#Drive">
+                  Ver demo
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div class="card" style="width: 18rem">
+            <img src="./assets/img/tenis2.jpg" class="card-img-top img-fluid img-cardDeporte" alt="tenis2" />
+            <div class="card-body">
+              <p class="card-text fw-bold text-center">Revés</p>
+              <div class="botonDeporte d-flex justify-content-center align-items-center">
+                <button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#Reves">
+                  Ver demo
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div class="card" style="width: 18rem">
+            <img src="./assets/img/tenis3.jpg" class="card-img-top img-fluid img-cardDeporte" alt="tenis3" />
+            <div class="card-body">
+              <p class="card-text fw-bold text-center">Saque (Serve)</p>
+              <div class="botonDeporte d-flex justify-content-center align-items-center">
+                <button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#Saque">
+                  Ver demo
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div class="card" style="width: 18rem">
+            <img src="./assets/img/tenis4.webp" class="card-img-top img-fluid img-cardDeporte" alt="tenis4" />
+            <div class="card-body">
+              <p class="card-text fw-bold text-center">Volea (Volley)</p>
+              <div class="botonDeporte d-flex justify-content-center align-items-center">
+                <button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#Volea">
+                  Ver demo
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <h2 class="text-center mb-4">Rugby</h2>
+        <div class="d-flex flex-wrap justify-content-center gap-5 mb-5">
+          <div class="card" style="width: 18rem">
+            <img src="./assets/img/rugby1.avif" class="card-img-top img-fluid img-cardDeporte" alt="rugby1" />
+            <div class="card-body">
+              <p class="card-text fw-bold text-center">
+                Pase lateral o hacia atrás
+              </p>
+              <div class="botonDeporte d-flex justify-content-center align-items-center">
+                <button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#PaseLateral">
+                  Ver demo
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div class="card" style="width: 18rem">
+            <img src="./assets/img/rugby2.jpg" class="card-img-top img-fluid img-cardDeporte" alt="rugby2" />
+            <div class="card-body">
+              <p class="card-text fw-bold text-center">Tacle (Placaje)</p>
+              <div class="botonDeporte d-flex justify-content-center align-items-center">
+                <button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#Tacle">
+                  Ver demo
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div class="card" style="width: 18rem">
+            <img src="./assets/img/rugby3.jpg" class="card-img-top img-fluid img-cardDeporte" alt="rugby3" />
+            <div class="card-body">
+              <p class="card-text fw-bold text-center">Ruck</p>
+              <div class="botonDeporte d-flex justify-content-center align-items-center">
+                <button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#Ruck">
+                  Ver demo
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div class="card" style="width: 18rem">
+            <img src="./assets/img/rugby4.jpeg" class="card-img-top img-fluid img-cardDeporte" alt="rugby4" />
+            <div class="card-body">
+              <p class="card-text fw-bold text-center">Scrum</p>
+              <div class="botonDeporte d-flex justify-content-center align-items-center">
+                <button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#Scrum">
+                  Ver demo
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
   <footer></footer>
+
+  <div class="modal fade" id="Dribbling" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Dribbling</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="card border-0 w-100" style="width: 18rem">
+            <img src="./assets/img/basket1.jpg" class="card-img-top" alt="basket1" />
+            <div class="card-body">
+              <h5 class="card-title">Dribbling</h5>
+              <p class="card-text">
+                Controlar el balón mientras se avanza, utilizando ambas manos
+                de manera alternada.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
+            Volver al inicio
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="TiroEnSuspension" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">
+            Tiro en suspension
+          </h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="card border-0 w-100" style="width: 18rem">
+            <img src="./assets/img/basket2.jpg" class="card-img-top" alt="basket2" />
+            <div class="card-body">
+              <h5 class="card-title">Tiro en suspensión</h5>
+              <p class="card-text">
+                Ejecutar un salto y lanzar hacia el aro, manteniendo la muñeca
+                firme y un arco de tiro adecuado.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
+            Volver al inicio
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="Pivoteo" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Pivoteo</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="card border-0 w-100" style="width: 18rem">
+            <img src="./assets/img/basket3.jpeg" class="card-img-top" alt="basket3" />
+            <div class="card-body">
+              <h5 class="card-title">Pivoteo</h5>
+              <p class="card-text">
+                Mantener un pie fijo como pivote para proteger el balón y
+                cambiar de dirección estratégicamente.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
+            Volver al inicio
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="Bandeja" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">
+            Bandeja (Lay-up)
+          </h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="card border-0 w-100" style="width: 18rem">
+            <img src="./assets/img/basket4.jpg" class="card-img-top" alt="basket4" />
+            <div class="card-body">
+              <h5 class="card-title">Bandeja (Lay-up)</h5>
+              <p class="card-text">
+                Entrada hacia el aro con dos pasos finales y un lanzamiento
+                suave y controlado.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
+            Volver al inicio
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="Pase" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Pase</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="card border-0 w-100" style="width: 18rem">
+            <img src="./assets/img/futbol1.jpg" class="card-img-top" alt="futbol1" />
+            <div class="card-body">
+              <h5 class="card-title">Pase</h5>
+              <p class="card-text">
+                Transferencia del balón con el interior del pie, precisa y
+                fundamental para el juego colectivo.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
+            Volver al inicio
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="Control" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">
+            Control/Recepción
+          </h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="card border-0 w-100" style="width: 18rem">
+            <img src="./assets/img/futbol2.jpg" class="card-img-top" alt="futbol2" />
+            <div class="card-body">
+              <h5 class="card-title">Control/Recepción</h5>
+              <p class="card-text">
+                Parar o amortiguar la pelota con el pie, pecho o muslo,
+                asegurando su correcta posesión.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
+            Volver al inicio
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="Conducción" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Conducción</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="card border-0 w-100" style="width: 18rem">
+            <img src="./assets/img/futbol3.jpg" class="card-img-top" alt="futbol3" />
+            <div class="card-body">
+              <h5 class="card-title">Conducción</h5>
+              <p class="card-text">
+                Llevar la pelota mediante toques cortos, manteniendo la visión
+                del juego.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
+            Volver al inicio
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="Remate" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Remate</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="card border-0 w-100" style="width: 18rem">
+            <img src="./assets/img/futbol4.webp" class="card-img-top" alt="futbol4" />
+            <div class="card-body">
+              <h5 class="card-title">Remate</h5>
+              <p class="card-text">
+                Finalizar la jugada con un disparo al arco, combinando
+                potencia y dirección.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
+            Volver al inicio
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="Drive" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">
+            Drive (derecha)
+          </h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="card border-0 w-100" style="width: 18rem">
+            <img src="./assets/img/tenis1.avif" class="card-img-top" alt="tenis1" />
+            <div class="card-body">
+              <h5 class="card-title">Drive (derecha)</h5>
+              <p class="card-text">
+                Golpe básico utilizando el lado dominante del cuerpo.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
+            Volver al inicio
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="Reves" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Revés</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="card border-0 w-100" style="width: 18rem">
+            <img src="./assets/img/tenis2.jpg" class="card-img-top" alt="tenis2" />
+            <div class="card-body">
+              <h5 class="card-title">Revés</h5>
+              <p class="card-text">
+                Golpe que puede ejecutarse a una o dos manos, destinado a
+                responder del lado no dominante.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
+            Volver al inicio
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="Saque" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">
+            Saque (Serve)
+          </h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="card border-0 w-100" style="width: 18rem">
+            <img src="./assets/img/tenis3.jpg" class="card-img-top" alt="tenis3" />
+            <div class="card-body">
+              <h5 class="card-title">Saque (Serve)</h5>
+              <p class="card-text">
+                Golpe inicial de cada punto, que requiere coordinación y
+                potencia.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
+            Volver al inicio
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="Volea" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">
+            Volea (Volley)
+          </h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="card border-0 w-100" style="width: 18rem">
+            <img src="./assets/img/tenis4.webp" class="card-img-top" alt="tenis4" />
+            <div class="card-body">
+              <h5 class="card-title">Volea (Volley)</h5>
+              <p class="card-text">
+                Golpe corto realizado cerca de la red, sin dejar que la pelota
+                toque el suelo.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
+            Volver al inicio
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="PaseLateral" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">
+            Pase lateral o hacia atrás
+          </h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="card border-0 w-100" style="width: 18rem">
+            <img src="./assets/img/rugby1.avif" class="card-img-top" alt="rugby1" />
+            <div class="card-body">
+              <h5 class="card-title">Pase lateral o hacia atrás</h5>
+              <p class="card-text">
+                El balón debe ser pasado de forma lateral o hacia atrás, nunca
+                hacia adelante.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
+            Volver al inicio
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="Tacle" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">
+            Tacle (Placaje)
+          </h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="card border-0 w-100" style="width: 18rem">
+            <img src="./assets/img/rugby2.jpg" class="card-img-top" alt="rugby2" />
+            <div class="card-body">
+              <h5 class="card-title">Tacle (Placaje)</h5>
+              <p class="card-text">
+                Acción defensiva destinada a detener al oponente, realizada
+                con técnica segura y dentro de las reglas.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
+            Volver al inicio
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="Ruck" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Ruck</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="card border-0 w-100" style="width: 18rem">
+            <img src="./assets/img/rugby3.jpg" class="card-img-top" alt="rugby3" />
+            <div class="card-body">
+              <h5 class="card-title">Ruck</h5>
+              <p class="card-text">
+                Disputa por el balón en el suelo tras un placaje, con
+                jugadores empujando desde los pies.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
+            Volver al inicio
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="Scrum" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Scrum</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="card border-0 w-100" style="width: 18rem">
+            <img src="./assets/img/rugby4.jpeg" class="card-img-top" alt="rugby4" />
+            <div class="card-body">
+              <h5 class="card-title">Scrum</h5>
+              <p class="card-text">
+                Formación que permite reanudar el juego mediante la fuerza
+                colectiva de los forwards.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
+            Volver al inicio
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="container py-5">
+    <div class="row g-4 justify-content-center">
+
+
+      <div class="col-6 col-md-3">
+        <div class="card card-deporte">
+          <img src="./assets/img/basket.webp" class="card-img-top" alt="Basket">
+          <div class="card-body">
+            <h5 class="card-title">Basket</h5>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="col-6 col-md-3">
+        <div class="card card-deporte">
+          <img src="./assets/img/futbol.webp" class="card-img-top" alt="Fútbol">
+          <div class="card-body">
+            <h5 class="card-title">Fútbol</h5>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="col-6 col-md-3">
+        <div class="card card-deporte">
+          <img src="./assets/img/tenis.webp" class="card-img-top" alt="Tenis">
+          <div class="card-body">
+            <h5 class="card-title">Tenis</h5>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="col-6 col-md-3">
+        <div class="card card-deporte">
+          <img src="./assets/img/rugby.webp" class="card-img-top" alt="Rugby">
+          <div class="card-body">
+            <h5 class="card-title">Rugby</h5>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <footer class="bg-success py-3">
+    <div class="container text-center">
+      <div class="row">
+        <div class="col-12 col-md-6 col-lg-3">
+          <h5 class="text-primary">Logo</h5>
+          <img src="./index.html" alt="logo" />
+        </div>
+        <div class="col-12 col-md-6 col-lg-3">
+          <h5 class="text-primary">Links</h5>
+          <ul class="list-unstyled">
+            <li>
+              <a href="index.html" class="text-decoration-none a_footer">HOME</a>
+            </li>
+            <li>
+              <a href="./pages/contacto.html" class="text-decoration-none a_footer">CONTACTO</a>
+            </li>
+            <li>
+              <a href="./pages/nosotros.html" class="text-decoration-none a_footer">NOSOTROS</a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-12 col-md-6 col-lg-3">
+          <h5 class="text-primary">Privacidad y Términos</h5>
+          <ul class="list-unstyled">
+            <li>
+              <a href="./pages/error_404.html" class="text-decoration-none a_footer">Políticas de Privacidad</a>
+            </li>
+            <li>
+              <a href="./pages/error_404.html" class="text-decoration-none a_footer">Términos y Condiciones</a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-12 col-md-6 col-lg-3">
+          <h5 class="text-primary">Redes</h5>
+          <a href="https://www.instagram.com/" target="_blank"><i
+              class="bi bi-instagram text-decoration-none fs-3 me-2"></i></a>
+          <a href="https://www.facebook.com/" target="_blank"><i
+              class="bi bi-facebook text-decoration-none fs-3 me-2"></i></a>
+          <a href="https://ar.linkedin.com/" target="_blank"><i
+              class="bi bi-linkedin text-decoration-none fs-3 me-2"></i></a>
+          <a href="https://www.youtube.com/" target="_blank"><i
+              class="bi bi-youtube text-decoration-none fs-3 me-2"></i></a>
+        </div>
+      </div>
+    </div>
+    <hr class="text-light" />
+    <p class="text-light text-center p-3">
+      <span class="d-block d-sm-inline">2025 &copy
+        <a href="index.html" class="text-decoration-none">SPORT-Streaming
+        </a></span>
+      <span class="d-sm-inline">Todos los derechos reservados.</span>
+    </p>
+  </footer>
+
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
     crossorigin="anonymous"></script>
