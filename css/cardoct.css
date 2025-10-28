@@ -3,6 +3,7 @@
     object-fit: cover;
     width: 100%;
     display: block;
+    
   }
   .cards.h-100 { 
     overflow: hidden;
@@ -33,3 +34,5 @@
     font-weight: 700;
     font-size: 1.05rem;
   }
+  
+  
