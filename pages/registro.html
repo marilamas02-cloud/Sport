@@ -59,72 +59,73 @@
         </div>
       <div class="card-body">
            
-      <form action="./error_404.html" method="get">
+    <form action="./error_404.html" method="get">
 
-        <div class="mb-3">
-          <label for="nombre" class="form-label">Nombre completo:</label>
-          <input type="text" class="form-control" id="nombre" placeholder="Escribe aquí..." required>
-        </div>
+  <div class="mb-3">
+    <label for="nombre" class="form-label">Nombre completo:</label>
+    <input type="text" class="form-control" id="nombre" name="nombre" placeholder="Escribe aquí..." required>
+  </div>
 
-        <div class="mb-3">
-          <label for="usuario" class="form-label">Usuario:</label>
-          <div class="input-group">
-            <span class="input-group-text">@</span>
-            <input type="text" class="form-control" id="usuario" placeholder="Escribe aquí..." required>
-          </div>
-        </div>
+  <div class="mb-3">
+    <label for="usuario" class="form-label">Usuario:</label>
+    <div class="input-group">
+      <span class="input-group-text">@</span>
+      <input type="text" class="form-control" id="usuario" name="usuario" placeholder="Escribe aquí..." required>
+    </div>
+  </div>
 
-        <div class="mb-3">
-          <label for="email" class="form-label">Correo electrónico:</label>
-          <input type="email" class="form-control" id="email" placeholder="correo@ejemplo.com" required>
-        </div>
-        
-        <div class="mb-3">
-          <label for="direccion" class="form-label">Dirección:</label>
-          <input type="text" class="form-control" id="direccion" placeholder="Ej: San Martín 450" required>
-        </div>
+  <div class="mb-3">
+    <label for="email" class="form-label">Correo electrónico:</label>
+    <input type="email" class="form-control" id="email" name="email" placeholder="correo@ejemplo.com" required>
+  </div>
+  
+  <div class="mb-3">
+    <label for="direccion" class="form-label">Dirección:</label>
+    <input type="text" class="form-control" id="direccion" name="direccion" placeholder="Ej: San Martín 450" required>
+  </div>
 
-        <div class="mb-3">
-          <label for="codigoPostal" class="form-label">Código Postal</label>
-          <input type="text" class="form-control" id="codigoPostal" name="codigoPostal" placeholder="4000" required>
-        </div>
+  <div class="mb-3">
+    <label for="codigoPostal" class="form-label">Código Postal</label>
+    <input type="text" class="form-control" id="codigoPostal" name="codigoPostal" placeholder="4000" required>
+  </div>
 
-        <div class="mb-3">
-          <label for="pais" class="form-label">País:</label>
-          <select class="form-select" id="pais" required>
-            <option value="">Seleccioná...</option>
-            <option>Argentina</option>
-            <option>Bolivia</option>
-            <option>Brasil</option>
-            <option>Chile</option>
-            <option>Colombia</option>
-            <option>Ecuador</option>
-            <option>Guyana</option>
-            <option>Paraguay</option>
-            <option>Perú</option>
-            <option>Uruguay</option>
-            <option>Venezuela</option>
-          </select>
-        </div>
+  <div class="mb-3">
+    <label for="pais" class="form-label">País:</label>
+    <select class="form-select" id="pais" name="pais" required>
+      <option value="">Seleccioná...</option>
+      <option>Argentina</option>
+      <option>Bolivia</option>
+      <option>Brasil</option>
+      <option>Chile</option>
+      <option>Colombia</option>
+      <option>Ecuador</option>
+      <option>Guyana</option>
+      <option>Paraguay</option>
+      <option>Perú</option>
+      <option>Uruguay</option>
+      <option>Venezuela</option>
+    </select>
+  </div>
 
-        <div class="mb-3">
-          <label for="password" class="form-label">Contraseña:</label>
-          <input type="password" class="form-control" id="password" placeholder="Mín 8 caracteres, Max 25 caracteres" minlength="8" maxlength="25" required>
-        </div>
+  <div class="mb-3">
+    <label for="password" class="form-label">Contraseña:</label>
+    <input type="password" class="form-control" id="password" name="password" placeholder="Mín 8 caracteres, Max 25 caracteres" minlength="8" maxlength="25" required>
+  </div>
 
-        <div class="mb-3">
-          <label for="confirmar" class="form-label">Confirmar contraseña:</label>
-          <input type="password" class="form-control" id="confirmar" placeholder="**********" required>
-        </div>
+  <div class="mb-3">
+    <label for="confirmar" class="form-label">Confirmar contraseña:</label>
+    <input type="password" class="form-control" id="confirmar" name="confirmar" placeholder="**********" required>
+  </div>
 
-        <div class="form-check mb-3">
-          <input class="form-check-input" type="checkbox" value="" id="terminos" required>
-          <label class="form-check-label" for="terminos">Acepto los términos y condiciones del evento.</label>
-        </div>
+  <div class="form-check mb-3">
+    <input class="form-check-input" type="checkbox" value="" id="terminos" name="terminos" required>
+    <label class="form-check-label" for="terminos">Acepto los términos y condiciones del evento.</label>
+  </div>
 
-        <button class="btn btn-primary d-block mx-auto w-50" type="submit">Registrarse</button>
+  <button class="btn btn-primary d-block mx-auto w-50" type="submit">Registrarse</button>
 
-        </form>
+</form>
+
         </div>
       </div>
     </div>
