@@ -2,11 +2,7 @@
 
 Este proyecto es una página web enfocada en el **frontend**, inspirada en la temática deportiva. Fue desarrollada utilizando **HTML, CSS y Bootstrap**, buscando un diseño moderno, adaptable y fácil de navegar
 
-
-
-![visual code](../Sport/assets/img/logo.png)
-
-
+[Página oficial Sport](https://streaming-sport.netlify.app/)
 
 
 ## ✅ Integrantes:
