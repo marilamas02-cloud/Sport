@@ -2,19 +2,6 @@
 
 Este proyecto es una página web enfocada en el **frontend**, inspirada en la temática deportiva. Fue desarrollada utilizando **HTML, CSS y Bootstrap**, buscando un diseño moderno, adaptable y fácil de navegar
 
-
-
-<p align="center">
-  <img src="./assets/img/logo.png" alt="Proyecto Sport" width="180">
-</p>
-
-🏅 # Proyecto Sport
-Este proyecto es una página web enfocada en el frontend, inspirada en la temática deportiva...
-
-
-
-
-
 ## ✅ Integrantes:
 * Marisol Lamas 
 
