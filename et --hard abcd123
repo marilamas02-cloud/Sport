@@ -1,0 +1,93 @@
+[33m0e99649[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mdev[m[33m)[m HEAD@{0}: cherry-pick: agrego cards
+[33mf76404d[m[33m ([m[1;31morigin/dev[m[33m)[m HEAD@{1}: commit: Recupero index anterior del commit d2013a5
+[33mcc5a040[m HEAD@{2}: commit (merge): agrego cards
+[33md2013a5[m HEAD@{3}: commit: agrego carrusel1
+[33me792d74[m HEAD@{4}: checkout: moving from feature/navCarousel to dev
+[33ma501ad6[m[33m ([m[1;31morigin/feature/navCarousel[m[33m, [m[1;32mfeature/navCarousel[m[33m)[m HEAD@{5}: checkout: moving from dev to feature/navCarousel
+[33me792d74[m HEAD@{6}: checkout: moving from feature/navCarousel to dev
+[33ma501ad6[m[33m ([m[1;31morigin/feature/navCarousel[m[33m, [m[1;32mfeature/navCarousel[m[33m)[m HEAD@{7}: checkout: moving from dev to feature/navCarousel
+[33me792d74[m HEAD@{8}: commit: agrego carrusel2
+[33mc3d3e25[m HEAD@{9}: commit: agrego card principal y sponsor
+[33mdcf5a21[m HEAD@{10}: pull origin dev: Fast-forward
+[33m787626b[m HEAD@{11}: commit: cambio color al nav
+[33medb447c[m HEAD@{12}: commit: cambio footer2
+[33mf0fc012[m HEAD@{13}: commit: cambio footer
+[33m1d90e1f[m HEAD@{14}: commit: agrego footer
+[33mc048ae0[m HEAD@{15}: commit: agrego contacto
+[33mb5af3f5[m HEAD@{16}: commit: agrego contacto
+[33m5c4796e[m HEAD@{17}: commit: arreglo contacto
+[33m605cb37[m HEAD@{18}: commit: cambio footer
+[33m268c3cf[m HEAD@{19}: pull origin dev: Fast-forward
+[33m5f63d13[m HEAD@{20}: commit: agrego imagen del logo
+[33m6b071aa[m HEAD@{21}: pull origin dev: Fast-forward
+[33m7dbfa1b[m HEAD@{22}: pull origin dev: Fast-forward
+[33m3be90bb[m HEAD@{23}: checkout: moving from feature/TodosLosDeportes to dev
+[33m20a179f[m[33m ([m[1;31morigin/feature/TodosLosDeportes[m[33m, [m[1;32mfeature/TodosLosDeportes[m[33m)[m HEAD@{24}: commit: agrego cards de todos los deportes
+[33m3be90bb[m HEAD@{25}: checkout: moving from dev to feature/TodosLosDeportes
+[33m3be90bb[m HEAD@{26}: pull origin dev: Fast-forward
+[33m28b30da[m HEAD@{27}: checkout: moving from feature/nosotros to dev
+[33m1b7e22b[m[33m ([m[1;31morigin/feature/nosotros[m[33m, [m[1;32mfeature/nosotros[m[33m)[m HEAD@{28}: commit: agrego nosotros
+[33m28b30da[m HEAD@{29}: checkout: moving from dev to feature/nosotros
+[33m28b30da[m HEAD@{30}: pull origin dev: Fast-forward
+[33m7d2fa69[m HEAD@{31}: checkout: moving from feature/cardDeporte to dev
+[33mb33c635[m[33m ([m[1;31morigin/feature/cardDeporte[m[33m, [m[1;32mfeature/cardDeporte[m[33m)[m HEAD@{32}: commit: agrego titulos
+[33mfd581d3[m HEAD@{33}: commit: agrego descripcion
+[33m24b90fe[m HEAD@{34}: commit: agrego responsive
+[33m829a62b[m HEAD@{35}: commit: agrego modal a boton
+[33m1d9b965[m HEAD@{36}: commit: agrego modales
+[33m61faa8b[m HEAD@{37}: commit: agregho modales
+[33m1d66aa9[m HEAD@{38}: pull origin dev: Merge made by the 'ort' strategy.
+[33m0625be9[m HEAD@{39}: checkout: moving from dev to feature/cardDeporte
+[33m7d2fa69[m HEAD@{40}: commit: agrego dark
+[33m3cc45a6[m HEAD@{41}: checkout: moving from feature/cardDeporte to dev
+[33m0625be9[m HEAD@{42}: commit: agrego modal2
+[33m11f22bd[m HEAD@{43}: commit: agrego modal
+[33m3cc45a6[m HEAD@{44}: checkout: moving from dev to feature/cardDeporte
+[33m3cc45a6[m HEAD@{45}: checkout: moving from feature/cardDeporte to dev
+[33m3cc45a6[m HEAD@{46}: pull origin dev: Fast-forward
+[33maa74e8d[m HEAD@{47}: checkout: moving from dev to feature/cardDeporte
+[33m3cc45a6[m HEAD@{48}: commit: agrego links
+[33maa74e8d[m HEAD@{49}: checkout: moving from feature/cardDeporte to dev
+[33maa74e8d[m HEAD@{50}: checkout: moving from dev to feature/cardDeporte
+[33maa74e8d[m HEAD@{51}: merge feature/cardDeporte: Fast-forward
+[33m1747630[m HEAD@{52}: checkout: moving from dev to dev
+[33m1747630[m HEAD@{53}: checkout: moving from dev to dev
+[33m1747630[m HEAD@{54}: checkout: moving from feature/cardDeporte to dev
+[33maa74e8d[m HEAD@{55}: commit: .
+[33md46b92f[m HEAD@{56}: checkout: moving from dev to feature/cardDeporte
+[33m1747630[m HEAD@{57}: checkout: moving from feature/cardDeporte to dev
+[33md46b92f[m HEAD@{58}: commit (merge): resuelvo problema
+[33mb673858[m HEAD@{59}: checkout: moving from dev to feature/cardDeporte
+[33m1747630[m HEAD@{60}: pull origin dev: Merge made by the 'ort' strategy.
+[33mdbc130c[m HEAD@{61}: commit: agrego css
+[33m78dd5fc[m HEAD@{62}: checkout: moving from feature/cardDeporte to dev
+[33mb673858[m HEAD@{63}: commit: agregue cards
+[33mb48e92a[m HEAD@{64}: pull origin dev: Merge made by the 'ort' strategy.
+[33m352c989[m HEAD@{65}: commit: agrego cards con imagenes y texto
+[33m61a394b[m HEAD@{66}: commit: agrego imagenes
+[33m5db0813[m HEAD@{67}: pull origin dev: Merge made by the 'ort' strategy.
+[33m97c37e5[m HEAD@{68}: checkout: moving from dev to feature/cardDeporte
+[33m78dd5fc[m HEAD@{69}: checkout: moving from feature/cardDeporte to dev
+[33m97c37e5[m HEAD@{70}: checkout: moving from dev to feature/cardDeporte
+[33m78dd5fc[m HEAD@{71}: checkout: moving from feature/cardDeporte to dev
+[33m97c37e5[m HEAD@{72}: commit (merge): agrego imagenes
+[33mee9a26c[m HEAD@{73}: checkout: moving from dev to feature/cardDeporte
+[33m78dd5fc[m HEAD@{74}: checkout: moving from feature/cardDeporte to dev
+[33mee9a26c[m HEAD@{75}: checkout: moving from dev to feature/cardDeporte
+[33m78dd5fc[m HEAD@{76}: commit: agrego imagenes
+[33md4904bf[m HEAD@{77}: checkout: moving from feature/cardDeporte to dev
+[33mee9a26c[m HEAD@{78}: checkout: moving from dev to feature/cardDeporte
+[33md4904bf[m HEAD@{79}: pull origin dev: Fast-forward
+[33m87dd1a1[m HEAD@{80}: pull origin dev: Fast-forward
+[33mbd819bf[m HEAD@{81}: checkout: moving from feature/cardDeporte to dev
+[33mee9a26c[m HEAD@{82}: commit: agrego imagenes
+[33meb407be[m HEAD@{83}: pull origin dev: Merge made by the 'ort' strategy.
+[33med0a33f[m HEAD@{84}: checkout: moving from dev to feature/cardDeporte
+[33mbd819bf[m HEAD@{85}: commit: agrego una imagen a dev
+[33me90b0f7[m[33m ([m[1;31morigin/main[m[33m, [m[1;32mmain[m[33m)[m HEAD@{86}: checkout: moving from feature/cardDeporte to dev
+[33med0a33f[m HEAD@{87}: commit: agrego dos imagenes en assets
+[33mf9154e5[m HEAD@{88}: commit: agrego cards
+[33me90b0f7[m[33m ([m[1;31morigin/main[m[33m, [m[1;32mmain[m[33m)[m HEAD@{89}: checkout: moving from dev to feature/cardDeporte
+[33me90b0f7[m[33m ([m[1;31morigin/main[m[33m, [m[1;32mmain[m[33m)[m HEAD@{90}: checkout: moving from main to dev
+[33me90b0f7[m[33m ([m[1;31morigin/main[m[33m, [m[1;32mmain[m[33m)[m HEAD@{91}: Branch: renamed refs/heads/dev to refs/heads/main
+[33me90b0f7[m[33m ([m[1;31morigin/main[m[33m, [m[1;32mmain[m[33m)[m HEAD@{93}: commit (initial): agrego estructura inicial al index
