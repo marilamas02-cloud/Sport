@@ -1,13 +1,13 @@
- .card-img-top {
-    height: 520px;           
+ .cards-img-top {
+    height: 620px;           
     object-fit: cover;
     width: 100%;
     display: block;
   }
-  .card.h-100 { 
+  .cards.h-100 { 
     overflow: hidden;
   }
-  .card .img-overlay {
+  .cards .img-overlay {
     font-family: initial;
     position: absolute;
     inset: 0;            
