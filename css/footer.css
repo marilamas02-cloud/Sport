@@ -1,0 +1,19 @@
+.a_footer{
+    color: aliceblue;
+}
+
+.a_footer:hover{
+    color: #0a66c2;
+
+}
+
+.bi {
+    color: aliceblue;
+    transform: scale(1.5);
+    transition: 0.4s;
+}
+
+.bi-instagram:hover { color: #e1306c; }
+.bi-facebook:hover { color: #1877f2; }
+.bi-linkedin:hover { color: #0a66c2; }
+.bi-youtube:hover { color: #ff0000; }
