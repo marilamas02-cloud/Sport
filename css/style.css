@@ -4,6 +4,36 @@
   box-sizing: border-box;
 }
 
+.cardPrincipal {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  border-radius: 1rem;
+}
+
+.hoverPrincipal img {
+  transition: transform 0.6s ease;
+}
+
+.hoverPrincipal:hover img {
+  transform: scale(1.05);
+}
+
+.cardOverlay {
+  position: absolute;
+  bottom: 10px;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  color: #fff;
+}
+
+.fechaBox.tiny {
+  font-size: 0.7rem; 
+}
+
 .img-cardDeporte {
   width: 100%;
   height: 200px; 
@@ -30,3 +60,87 @@
   text-align: center;
   margin-top: 10px;
 }
+
+
+.section-dispositivos {
+  color: #f8f9fa; 
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.titulo-principal {
+  font-size: 2.5rem;
+  color: #f8f9fa; /* blanco claro */
+}
+
+.texto-subtitulo {
+  font-size: 1.8rem;
+  color: #ffc107; /* dorado */
+  font-weight: 600;
+}
+
+.descripcion {
+  font-size: 1.1rem;
+  color: #e0e0e0; /* gris claro */
+  line-height: 1.6;
+}
+
+.divider {
+  border: 0;
+  border-top: 1px solid #444;
+  width: 80%;
+  margin: 30px auto;
+}
+
+.nota-pie {
+  font-size: 0.9rem;
+  color: #bbb;
+}
+
+.divider-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  margin: 30px 0;
+}
+
+.divider-title .line {
+  flex-grow: 1;
+  border: 0;
+  border-top: 1px solid #444;
+  height: 1px;
+}
+
+.logos-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 35px; 
+  margin-top: 20px;
+}
+
+.logo-text {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #f8f9fa;
+  line-height: 1;
+  padding: 10px 15px; 
+  display: flex;
+  align-items: center;
+  gap: 8px; 
+}
+
+.iconosponsor {
+  display: flex;
+  justify-content: center;
+  gap: 25px; 
+  margin-bottom: 30px;
+}
+
+.iconosponsor i {
+  color: #f8f9fa;
+  font-size: 2rem; 
+}
+
