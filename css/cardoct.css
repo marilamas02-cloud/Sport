@@ -8,6 +8,7 @@
     overflow: hidden;
   }
   .card .img-overlay {
+    font-family: initial;
     position: absolute;
     inset: 0;            
     display: flex;
@@ -15,7 +16,7 @@
     padding: 16px;
     pointer-events: none;    
     background: linear-gradient(transparent 40%, rgba(0,0,0,0.55) 100%);
-    color: white;
+    color: rgb(255, 255, 255);
   }
   .img-overlay .overlay-content {
     pointer-events: auto;    
