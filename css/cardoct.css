@@ -1,0 +1,38 @@
+ .cards-img-top {
+    height: 620px;           
+    object-fit: cover;
+    width: 100%;
+    display: block;
+    
+  }
+  .cards.h-100 { 
+    overflow: hidden;
+  }
+  .cards .img-overlay {
+    font-family: initial;
+    position: absolute;
+    inset: 0;            
+    display: flex;
+    align-items: flex-end;   
+    padding: 16px;
+    pointer-events: none;    
+    background: linear-gradient(transparent 40%, rgba(0,0,0,0.55) 100%);
+    color: rgb(255, 255, 255);
+  }
+  .img-overlay .overlay-content {
+    pointer-events: auto;    
+    width: 100%;
+  }
+  .full-link {
+    position: absolute;
+    inset: 0;
+    z-index: 2;
+    text-indent: -9999px; 
+  }
+  .overlay-title {
+    margin: 0;
+    font-weight: 700;
+    font-size: 1.05rem;
+  }
+  
+  
