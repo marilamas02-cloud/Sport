@@ -4,7 +4,7 @@ Este proyecto es una página web enfocada en el **frontend**, inspirada en la te
 
 
 
-![visual code](../Sport/assets/img/)
+![visual code](../Sport/assets/img/logo.png)
 
 
 
