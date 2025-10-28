@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.img-cardDeporte {
+  width: 100%;
+  height: 200px; 
+  object-fit: cover;
+  object-position: center;
+}
+
+.card-deporte {
+  max-width: 200px; 
+  margin: auto; 
+  transition: transform 0.3s;
+}
+
+.card-deporte:hover {
+  transform: scale(1.05); 
+}
+
+.card-deporte img {
+  height: 150px; 
+  object-fit: cover; 
+}
+.card-title {
+  font-weight: bold;
+  text-align: center;
+  margin-top: 10px;
+}
