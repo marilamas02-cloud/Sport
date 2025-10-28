@@ -4,7 +4,13 @@ Este proyecto es una página web enfocada en el **frontend**, inspirada en la te
 
 
 
-![visual code](../Sport/assets/img/logo.png)
+<p align="center">
+  <img src="./assets/img/logo.png" alt="Proyecto Sport" width="180">
+</p>
+
+🏅 # Proyecto Sport
+Este proyecto es una página web enfocada en el frontend, inspirada en la temática deportiva...
+
 
 
 
